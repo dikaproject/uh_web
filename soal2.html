@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Soal ke 2</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+    
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    
+        form {
+            margin: 0 auto;
+            width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+    
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+    
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+        button:hover {
+            background-color: #3e8e41;
+        }
+    
+        #keliling {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Kalkulator Keliling Trapezium</h1>
+    <p>Masukkan panjang sisi trapezium:</p>
+    <label for="sideA">Sisi A:</label>
+    <input type="number" id="sideA" placeholder="Sisi A"><br>
+    <label for="sideB">Sisi B:</label>
+    <input type="number" id="sideB" placeholder="Sisi B"><br>
+    <label for="sideC">Sisi C:</label>
+    <input type="number" id="sideC" placeholder="Sisi C"><br>
+    <label for="sideD">Sisi D:</label>
+    <input type="number" id="sideD" placeholder="Sisi D"><br>
+    <button onclick="hitungKeliling()">Hitung Keliling</button>
+    <p>Keliling: <span id="keliling"></span></p>
+
+
+    
+
+</body>
+
+
+<script src="/assets/js/script.js"></script>
+<script src="./soal_2.js"></script>
+</html>
